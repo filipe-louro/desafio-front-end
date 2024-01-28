@@ -1,46 +1,72 @@
-# Getting Started with Create React App
+# Desafio Front-end: DataTable
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma implementação de um DataTable em React, desenvolvido como parte de um desafio front-end.
 
-## Available Scripts
+Ele utiliza TypeScript e Styled-Components para criar uma interface simples, exibindo um data table que permite fazer consultas através de um campo de busca.
 
-In the project directory, you can run:
+Os dados são buscados através de uma API utilizando JSON Server.
 
-### `npm start`
+## Iniciando o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Antes de começar, certifique-se de ter o Node.js, o Yarn e o JSON Server instalados em sua máquina.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone o repositório para o seu ambiente local:
 
-### `npm test`
+```bash
+git clone https://github.com/filipe-louro/desafio-front-end.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Acesse o diretório do projeto:
 
-### `npm run build`
+```bash
+cd desafio-front-end
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Instale as dependências usando o Yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+yarn install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Rode o projeto através do yarn:
 
-### `npm run eject`
+```bash
+yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Inicia a aplicação em modo de desenvolvimento. Abre por padrão o endereço http://localhost:3000 no seu navegador._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Inicie o Json-server para utilizar os dados de MockUp na Tabela:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+yarn start:json-server
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Inicia o servidor JSON utilizado para simular uma API local. Este projeto usa a ferramenta json-server para fornecer dados para o DataTable._
 
-## Learn More
+# Funcionalidades Principais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**DataTable Responsivo**: O DataTable é projetado para ser totalmente responsivo, proporcionando uma experiência de usuário consistente em diferentes dispositivos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Busca Dinâmica**: A funcionalidade de busca permite encontrar rapidamente informações no DataTable. A busca é realizada em campos como nome, cargo, data de admissão e número de celular.
+
+# Tecnologias Utilizadas
+
+**React**: Biblioteca JavaScript para criar interfaces de usuário.
+**TypeScript**: Superset de JavaScript que adiciona tipagem estática à linguagem.
+
+**Styled Components**: Biblioteca para estilizar componentes React com suporte a CSS-in-JS.
+
+# Estrutura do Projeto
+
+**src/components**: Contém os componentes React, incluindo o DataTable, TableRow e TableHeader.
+
+**src/public**: Armazena recursos estáticos, como imagens e ícones.
+
+**src/interfaces**: Contém as interfaces Typescript para utilizar nos componentes.
+
+**src/styles**: Contém a estilização dos componentes utlizando o Styled Components.
+
+# Observação
+
+Este é um projeto apenas de desafio, sendo feito apenas para concluir um desafio proposto envolvendo a criação de um DataTable utilizando React, TypeScript, Styled Components e JSON Server.

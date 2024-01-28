@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "image": "/assets/svg/persona.svg",
+      "name": "Maria Silva",
+      "role": "Desenvolvedora Back-end",
+      "admission_date": "22/02/2015",
+      "cellphone": "+55 (11) 9876-5432"
+    },
+    {
+      "id": 2,
+      "image": "/assets/svg/persona.svg",
+      "name": "José Oliveira",
+      "role": "Desenvolvedor Front-end",
+      "admission_date": "20/03/2020",
+      "cellphone": "+55 (11) 8765-4321"
+    },
+    {
+      "id": 3,
+      "image": "/assets/svg/persona.svg",
+      "name": "Ana Pereira",
+      "role": "Analista de Dados",
+      "admission_date": "10/01/2024",
+      "cellphone": "+55 (11) 7654-3210"
+    },
+    {
+      "id": 4,
+      "image": "/assets/svg/persona.svg",
+      "name": "Carlos Santos",
+      "role": "Arquiteto de Software",
+      "admission_date": "25/04/2023",
+      "cellphone": "+55 (11) 6543-2109"
+    },
+    {
+      "id": 5,
+      "image": "/assets/svg/persona.svg",
+      "name": "Fernanda Lima",
+      "role": "Gerente de Projeto",
+      "admission_date": "02/01/2022",
+      "cellphone": "+55 (11) 5432-1098"
+    },
+    {
+      "id": 6,
+      "image": "/assets/svg/persona.svg",
+      "name": "Ricardo Costa",
+      "role": "Analista de Segurança",
+      "admission_date": "15/07/2019",
+      "cellphone": "+55 (11) 4321-9876"
+    },
+    {
+      "id": 7,
+      "image": "/assets/svg/persona.svg",
+      "name": "Juliana Santos",
+      "role": "UI/UX Designer",
+      "admission_date": "08/09/2021",
+      "cellphone": "+55 (11) 3210-8765"
+    },
+    {
+      "id": 8,
+      "image": "/assets/svg/persona.svg",
+      "name": "Roberto Oliveira",
+      "role": "Engenheiro de QA",
+      "admission_date": "03/12/2017",
+      "cellphone": "+55 (11) 2109-7654"
+    },
+    {
+      "id": 9,
+      "image": "/assets/svg/persona.svg",
+      "name": "Patrícia Lima",
+      "role": "Analista de Sistemas",
+      "admission_date": "12/05/2016",
+      "cellphone": "+55 (11) 1098-6543"
+    },
+    {
+      "id": 10,
+      "image": "/assets/svg/persona.svg",
+      "name": "Lucas Pereira",
+      "role": "Scrum Master",
+      "admission_date": "18/11/2018",
+      "cellphone": "+55 (11) 9876-5432"
+    }
+  ]
+}

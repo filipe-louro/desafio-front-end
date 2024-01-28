@@ -38,7 +38,7 @@ export const AdditionalInfo = styled.div`
 export const Details = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 16px 0px;
   padding: 16px 0px;
 `;
 
